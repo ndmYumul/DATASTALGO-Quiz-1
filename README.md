@@ -80,3 +80,45 @@ Learn More
 You can learn more in the Create React App documentation.
 
 To learn React, check out the React documentation.
+
+Chong's Siomai Rice: Cloning Guide
+
+Step 1: Clone the Repository (The Download)
+
+First, you need to download the code from GitHub. We'll use the git clone command in your terminal.
+
+Open Terminal: Open your terminal (or use the built-in terminal in VS Code: Ctrl + `).
+
+Navigate: Change directories (cd) to where you want the project folder to live (e.g., your Desktop or development folder).
+
+Clone: Copy the command below, paste it into your terminal, and hit Enter.
+
+git clone [https://github.com/ndmYumul/DATASTALGO-Quiz-1.git](https://github.com/ndmYumul/DATASTALGO-Quiz-1.git)
+
+
+Enter Project Folder: Once the download is complete, move into the newly created project directory:
+
+cd DATASTALGO-Quiz-1
+
+
+Step 2: Install Dependencies (The Setup)
+
+This project is a React application built with Create React App, which means it needs some external libraries (dependencies) to run.
+
+Install Packages: With your terminal still inside the DATASTALGO-Quiz-1 folder, run the following command. This will read the package.json file and download all necessary modules (like React, React DOM, and Tailwind CSS configuration).
+
+npm install
+
+
+This might take a minute or two, depending on your internet connection.
+
+Step 3: Launch the Application (The Preview)
+
+Once all the dependencies are installed, you are ready to launch the Single Page Application (SPA).
+
+Start Dev Server: Run the start script defined in the package.json file:
+
+npm start
+
+
+A new browser window should automatically open to the development server (usually http://localhost:3000), and you'll see the Chong's Siomai Rice SPA live!
